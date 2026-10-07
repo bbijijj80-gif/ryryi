@@ -35,7 +35,6 @@ if (-not (Test-Path $exe)) {
 
 $u = [Uri]$Link
 if ($u.Scheme -ne 'vless') { throw 'Нужна ссылка vless://' }
-$q = [System.Web.HttpUtility]::ParseQueryString($u.Query)
 Add-Type -AssemblyName System.Web
 $q = [System.Web.HttpUtility]::ParseQueryString($u.Query)
 
