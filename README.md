@@ -28,3 +28,6 @@ sudo ./server/install.sh [порт=443] [сайт-маскировка=www.micro
   географически/по ASN близкий к вашему VPS (проверка: `xray tls ping <host>`).
 - Не делитесь одной ссылкой публично; на каждого пользователя — свой UUID.
 - Обновляйте Xray-core: методы блокировки меняются.
+
+## Другие варианты
+См. [`variations/README.md`](variations/README.md): шесть вариантов (REALITY TCP/XHTTP/gRPC, WS+TLS, Hysteria2, SSH), установка всех одной командой и автоперебор на клиенте.
